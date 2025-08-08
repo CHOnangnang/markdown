@@ -5,7 +5,7 @@
 
 ## 1. 제목(Header)
 ######제목은 6개까지 가능하고 #뒤는 띄어쓰기 해야합니다.
-```
+```MARKDOWN
 # 제목1
 ## 제목2
 ### 제목3
@@ -23,7 +23,7 @@
 
 
 ## 2. 강조
-```
+```MARKDOWN
 **굵게** 또는 __굵게__
 
 *기울임* 또는 _기울임_
@@ -44,7 +44,7 @@ __*이텔릭체*와 두껍게__ 를 혼용할 수도 있습니다.
 
 ## 3. 목록
 
-```markdown
+```MARKDOWN
 1. 순서가 있는 항목
 1. 순서가 있는 항목
 <tab> 1. 순서가 없는 항목
@@ -70,9 +70,9 @@ __*이텔릭체*와 두껍게__ 를 혼용할 수도 있습니다.
     - 순서가 없는 항목
     - 순서가 없는 항목
 
-## 4. 링크와 이미지
+## 4. 이미지와 링크
 ### Images
-```
+```MARKDOWN
 ![Alternative Text01](https://semifive.com/wp-content/uploads/2022/04/ph_s5_logo_lrg.png "이미지 설명(Title)은 생략 가능합니다.")
 
 ![Alternative Text02][Image참조링크]
@@ -92,31 +92,31 @@ Alternative Text는 이미지를 대체할 텍스트라는 의미입니다.
 이미지를 출력할 수 없을 때 Alternative Text가 출력됩니다.
 
 ### Links
-```
+```MARKDOWN
 [GOOGLE](https://google.com)  
 [NAVER](https://naver.com "링크 설명(title)은 생략할 수 있어요.")  
-[AD팀 쉐어포인트][참조1]  
+[세미파이브 홈페이지][참조1]  
 
-[참조1]: https://semifive.sharepoint.com/sites/Teams_AnalogDesign/Shared%20Documents  
-[참조 링크]: https://naver.com "AD팀 쉐어포인트 링크입니다."  
+[참조1]: https://semifive.com/  
+[참조 링크]: https://naver.com "세미파이브 홈페이지 입니다."  
 
 문서 안에서 [참조 링크]를 그대로 사용할 수도 있습니다. [참조1]로 이동하기
 ```
 [GOOGLE](https://google.com)  
 [NAVER](https://naver.com "링크 설명(title)은 생략할 수 있어요.")  
-[AD팀 쉐어포인트][참조1]  
+[세미파이브 홈페이지][참조1]  
 
-[참조1]: https://semifive.sharepoint.com/sites/Teams_AnalogDesign/Shared%20Documents  
-[참조 링크]: https://naver.com "AD팀 쉐어포인트 링크입니다."  
+[참조1]: https://semifive.com/  
+[참조 링크]: https://naver.com "세미파이브 홈페이지 입니다."  
 
 문서 안에서 [참조 링크]를 그대로 사용할 수도 있습니다. [참조1]로 이동하기
 
 ### 이미지에 링크 추가
-```
+```MARKDOWN
 [![대체 텍스트(Alternative Text)](이미지주소)](링크)
-[![대체 텍스트(Alternative Text)](https://semifive.com/wp-content/uploads/2022/04/ph_s5_logo_lrg.png)](https://semifive.sharepoint.com/sites/Teams_AnalogDesign/Shared%20Documents)
+[![대체 텍스트(Alternative Text)](https://semifive.com/wp-content/uploads/2022/04/ph_s5_logo_lrg.png)](https://semifive.com/ )
 ```
-[![대체 텍스트(Alternative Text)](https://semifive.com/wp-content/uploads/2022/04/ph_s5_logo_lrg.png)](https://semifive.sharepoint.com/sites/Teams_AnalogDesign/Shared%20Documents)
+[![대체 텍스트(Alternative Text)](https://semifive.com/wp-content/uploads/2022/04/ph_s5_logo_lrg.png)](https://semifive.com/ )
 
 ## 5. 코드
 
@@ -164,13 +164,13 @@ public class BootSpringBootApplication {
 ```
 
 ### Inline code
-```
+```MARKDOWN
 강조할 코드를 ` 기호로 감싸 `인라인(InLine)` 코드를 표현합니다.
 ```
 강조할 코드를 \` 기호로 감싸 `인라인(InLine)` 코드를 표현합니다.
 
 ## 6. 인용문(Quotation)
-```
+```MARKDOWN
 > 인용문 - 남의 말이나 글에서 직접 또는 간접으로 따온 문장.
 > _(네이버 국어 사전)_
 
@@ -203,7 +203,7 @@ BREAK!
 `:---:`: 가운데 정렬
 
 `---:`: 우측 정렬
-```
+```MARKDOWN
 | Left columns  | Right columns |
 | ------------- |:-------------:|
 | left foo      | right foo     |
@@ -217,7 +217,7 @@ BREAK!
 | left baz      | right baz     |
 
 ## 8. 체크박스
-```
+```MARKDOWN
 - [x] 완료
 - [ ] 미완료
 ```
@@ -237,7 +237,7 @@ BREAK!
 
 
 ## 10. 줄바꿈
-```
+```MARKDOWN
 줄바꿈(Line Breaks)을 위해서는 문장 마지막에서 <br>태그를 직접 입력하거나,      <!--띄어쓰기 2번-->
 문장 마지막에서 띄어쓰기를 2번 이상 입력합니다.<!--띄어쓰기 없음-->
 플랫폼 자체에서 자동 줄바꿈을 지원하는 경우,<!--띄어쓰기 없음-->
@@ -251,8 +251,7 @@ Github에서는 줄바꿈을 위해 띄어쓰기를 2번이상 입력해야합�
 
 ## 11. 주석
 `<!-- -->`, `[//]: #` 기호를 사용해, 주석(Comment)을 표현합니다.
-```
-MARKDOWN
+```MARKDOWN
 -- 시작 --
 
 <!-- 안녕하세요. -->
@@ -266,3 +265,6 @@ MARKDOWN
 -- 시작 --
 
 -- 종료 --
+
+
+
