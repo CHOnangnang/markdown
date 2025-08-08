@@ -73,19 +73,23 @@ __*이텔릭체*와 두껍게__ 를 혼용할 수도 있습니다.
 ## 4. 링크와 이미지
 ### Images
 ```
-![Alternative Text](https://semifive.com/wp-content/uploads/2022/04/ph_s5_logo_lrg.png "이미지 설명(Title)은 생략 가능합니다.")
+![Alternative Text01](https://semifive.com/wp-content/uploads/2022/04/ph_s5_logo_lrg.png "이미지 설명(Title)은 생략 가능합니다.")
 
-![SEMIFIVE로고][Image참조링크]
+![Alternative Text02][Image참조링크]
 
 [Image참조링크]: https://semifive.com/wp-content/uploads/2022/10/img.jpg "이미지 설명은 생략할 수 있어요."
-Alternative Text는 이미지를 대체할 텍스트라는 의미입니다. 이미지를 출력할 수 없을 때 Alternative Text가 출력됩니다.
+
+Alternative Text는 이미지를 대체할 텍스트라는 의미입니다.  
+이미지를 출력할 수 없을 때 Alternative Text가 출력됩니다.
 ```
 ![Alternative Text01](https://semifive.com/wp-content/uploads/2022/04/ph_s5_logo_lrg.png "이미지 설명(Title)은 생략 가능합니다.")
 
 ![Alternative Text02][Image참조링크]
 
 [Image참조링크]: https://semifive.com/wp-content/uploads/2022/10/img.jpg "이미지 설명은 생략할 수 있어요."
-Alternative Text는 이미지를 대체할 텍스트라는 의미입니다. 이미지를 출력할 수 없을 때 Alternative Text가 출력됩니다.
+
+Alternative Text는 이미지를 대체할 텍스트라는 의미입니다.  
+이미지를 출력할 수 없을 때 Alternative Text가 출력됩니다.
 
 ### Links
 ```
