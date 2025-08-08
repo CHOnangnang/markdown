@@ -1,6 +1,5 @@
 # Markdown syntax guide
 **마크다운(Markdown)**은 경량 마크업 언어  
-2004년 존 그루버(John Gruber)가 개발  
 간단한 텍스트 기반 문법으로 문서 서식을 표현 가능  
 파일 확장자 - README.md  
 
