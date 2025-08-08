@@ -107,6 +107,7 @@ __*이텔릭체*와 두껍게__ 를 혼용할 수도 있습니다.
 
 ### 이미지에 링크 추가
 ```
+[![대체 텍스트(Alternative Text)](이미지주소)](링크)
 [![대체 텍스트(Alternative Text)](https://semifive.com/wp-content/uploads/2022/04/ph_s5_logo_lrg.png)](https://semifive.sharepoint.com/sites/Teams_AnalogDesign/Shared%20Documents)
 ```
 [![대체 텍스트(Alternative Text)](https://semifive.com/wp-content/uploads/2022/04/ph_s5_logo_lrg.png)](https://semifive.sharepoint.com/sites/Teams_AnalogDesign/Shared%20Documents)
