@@ -94,10 +94,10 @@ Alternative Text는 이미지를 대체할 텍스트라는 의미입니다.
 ### Links
 ```MARKDOWN
 [GOOGLE](https://google.com)  
-[NAVER](https://naver.com "링크 설명(title)은 생략할 수 있어요.")  
-[세미파이브 홈페이지][참조1]  
+[NAVER](https://naver.com "링크 설명(title)은 생략할 수 있어요.")
 
-[참조1]: https://semifive.com/  
+[세미파이브 홈페이지][참조1]  
+[참조1]: https://semifive.com/
 [참조 링크]: https://naver.com "세미파이브 홈페이지 입니다."  
 
 문서 안에서 [참조 링크]를 그대로 사용할 수도 있습니다. [참조1]로 이동하기
