@@ -94,7 +94,7 @@ __*이텔릭체*와 두껍게__ 를 혼용할 수도 있습니다.
 [참조1]: https://semifive.sharepoint.com/sites/Teams_AnalogDesign/Shared%20Documents  
 [참조 링크]: https://naver.com "AD팀 쉐어포인트 링크입니다."  
 
-문서 안에서 [참조 링크]를 그대로 사용할 수도 있습니다.
+문서 안에서 [참조 링크]를 그대로 사용할 수도 있습니다. [NAVER]로 이동하기
 ```
 [GOOGLE](https://google.com)  
 [NAVER](https://naver.com "링크 설명(title)은 생략할 수 있어요.")  
