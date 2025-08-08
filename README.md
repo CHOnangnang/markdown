@@ -177,9 +177,9 @@ public class BootSpringBootApplication {
 BREAK!
 
 > 인용문을 작성하세요!
->> 중첩된 인용문(nested blockquote)을 만들 수 있습니다.
->>> 중중첩 인용문 1
->>> 중중첩 인용문 2
+>> 중첩된 인용문(nested blockquote)을 만들 수 있습니다.  
+>>> 중중첩 인용문 1  
+>>> 중중첩 인용문 2  
 >>> 중중첩 인용문 3
 ```
 > 인용문 - 남의 말이나 글에서 직접 또는 간접으로 따온 문장.
