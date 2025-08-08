@@ -83,13 +83,13 @@ __*이텔릭체*와 두껍게__ 를 혼용할 수도 있습니다.
 
 ![대체 텍스트(Alternative Text)][Image참조링크]
 
-[Image참조링크]: https://picsum.photos/200/100 "이미지 설명은 생략할 수 있어요."
+[Image참조링크]: https://semifive.com/wp-content/uploads/2022/10/img_pkg_development_chip.jpg "이미지 설명은 생략할 수 있어요."
 ```
 ![대체 텍스트(Alternative Text)](https://semifive.com/wp-content/uploads/2022/04/ph_s5_logo_lrg.png "링크 설명(Title)은 생략 가능합니다.")
 
 ![대체 텍스트(Alternative Text)][Image참조링크]
 
-[Image참조링크]: https://picsum.photos/200/100 "이미지 설명은 생략할 수 있어요."
+[Image참조링크]: https://semifive.com/wp-content/uploads/2022/10/img_pkg_development_chip.jpg "이미지 설명은 생략할 수 있어요."
 
 ### Links
 ```
